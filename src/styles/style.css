@@ -1,1 +1,178 @@
 /** CSS STYLE **/
+
+.visual{
+    color: #303846;
+    font-size: 16px;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left:0px;
+    right:0px;
+
+    z-index: 1000;
+}
+.bg-w{
+    background-color: white;
+
+    height: 50px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+}
+.ls{
+    list-style: none;
+}
+.sizel{
+    width: 40px;
+    height: 40px;
+    padding: 5px 20px 0 30px;
+}
+.indent{
+    padding-right: 30px;
+}
+.block{
+    position: relative;
+    box-sizing: border-box;
+
+    height: 500px;
+}
+.block .back{
+    height: 500px;
+    min-width: 100%;
+
+    z-index: -1;
+}
+.block .filling{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+
+    z-index: 2;
+}
+.highlight{
+    font-size: 40px;
+
+    margin: 0;
+}
+.set{
+    font-size: 20px;
+
+    margin: 0;
+}
+.sizel2{
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 20px;
+}
+.bt{
+    color: white;
+    background-color: transparent;
+
+    padding: 10px;
+    border-color: white;
+    margin-top: 30px;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+
+    width: 1000px;
+    height: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.align-items-fs{
+    align-items: flex-start;
+}
+.block-info{
+    width: 250px;
+
+    margin-top: 40px;
+}
+.ai{
+    align-items: center;
+}
+.block-info2{
+    width: 450px;
+}
+.floatr{
+    height: 150px;
+    width: 250px;
+    float: right;
+}
+.floatl{
+    height: 150px;
+    width: 250px;
+    float: left;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.feedback{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border-color: aquamarine;
+    width: 400px;
+}
+.legend{
+    color: aquamarine;
+    font-size: 20px;
+}
+.distance{
+    margin: 20px 0;
+}
+.pad104{
+    padding-right: 104px;
+}
+.w226{
+    width: 226px;
+}
+.nonb{
+    border: none;
+}
+.bt2{
+    color: aquamarine;
+    padding: 10px 20px;
+    border-color: aquamarine; 
+    margin-bottom: 70px;
+}
+.f-start{
+    display: flex;
+    align-self: flex-start;
+    width: 428px;
+    margin-top: 15px;
+}
+.mar-t15{
+    margin-top: 15px;
+}
+.footer{
+    background-color: #303846;
+    color: white;
+
+    height: 200px;
+    width: 100%;
+}
+.wrap{
+    width: 230px;
+    
+    flex-wrap: wrap;
+}
+.pad0{
+    padding-left: 0;
+}
